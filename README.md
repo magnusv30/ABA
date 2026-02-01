@@ -9,5 +9,5 @@ Um zu starten, beginne bei folgendem Dokument, es erklärt den Code für das Pro
 Anschließend ist es ratsam, sich anzusehen, wie das Programm von oben aussieht, wenn es ausgeführt wurde. Dadurch kann man viel besser verstehen, was passiert ist.
 
 ## 3: Vergleich von zwei verschiedenen Backpropagation-Algorithmen
-Hier werden zwei verschiedene Ansätze verglichen: einerseits der Code von oben und andererseits der Code, den NotebookLM basierend auf [3blue1brown](https://www.3blue1brown.com) geschrieben hat.
+Eine Alternative Implementierung von Backpropagation, die Google NotebookLM basierend auf [3blue1brown](https://www.3blue1brown.com) geschrieben hat.
 

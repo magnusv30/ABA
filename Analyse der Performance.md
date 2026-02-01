@@ -18,4 +18,4 @@ Zu beginn starten beide Codes mit 1000 Wiederholungen und einer Lernrate von 0,1
     <td>Genauigkeit Testdatensatz: 25,8%</td>    
   </tr>
 </table>
-Hier man klar sehen, dass mnist-1 mit einer kleinen Lernrate und wenigen Wiederholungen bereits relativ gut auf dem Testdatensatz abschneidet.  
+Hier man klar sehen, dass mnist-1 mit einer kleinen Lernrate und wenigen Wiederholungen bereits relativ gut auf dem Testdatensatz abschneidet. Außerdem fällt auf, dass beider in den ersten paar Wiederholungen sich wenig verbessern, anschließend sprunghaft und dann mit einer gleichmäßigen Steigung.

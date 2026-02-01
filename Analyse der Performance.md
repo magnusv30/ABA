@@ -4,7 +4,7 @@ Bei der Intialisierung des Codes fällt mir sehr stark auf, dass die Accuracy zu
 
 ## Genauigkeitsrate
 Um die Genauigkeitsrate etwas genauer zu analysieren, werden beide Programmiervarianten verglichen. Die x-Achse zeigt immer die Anzahl der Wiederholungen und die y-Achse multipliziert mit 100 die Genauigkeit.
-Zu beginn starten beide Codes mit 1000 Wiederholungen und einer Lernrate von 0,1:  
+Zu beginn starten beide Codes mit **1000** Wiederholungen und einer Lernrate von **0,1**:  
 <table>
   <tr>
     <th>mnist-1</th>

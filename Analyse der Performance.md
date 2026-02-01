@@ -4,3 +4,5 @@ Bei der Intialisierung des Codes fällt mir sehr stark auf, dass die Accuracy zu
 
 ## Genauigkeitsrate
 Um die Genauigkeitsrate etwas genauer zu analysieren, werden beide Programmiervarianten verglichen. 
+Zu beginn starten beide mit 1000 Wiederholungen und einer Lernrate von 0,1:
+mnist-1

@@ -3,6 +3,8 @@ Für dieses Projekt kann Google Colab sehr gut verwendet werden, es muss nichts 
 ## 1 Anmeldung auf Google Colab und Herunterladen des Projkets von Github
 <a href="[http://example.com/](https://colab.research.google.com/)" target="_blank">https://colab.research.google.com</a> öffnen und mit dem Google Konto anmelden.
 Außerdem erst auf [mnist-1](https://github.com/magnusv30/ABA/blob/d338cde66c7138177eeb85f9b5b7caa984ce8e08/MNIST-1.ipynb) klicken und rechts oben auf herunterladen klicken, um das Projekt später auf Colab auszuführen.
+[mnist-1](https://github.com/magnusv30/ABA/blob/d338cde66c7138177eeb85f9b5b7caa984ce8e08/MNIST-1.ipynb){:target="_blank"}  
+<a href="http://google.com/" target="_blank">Hello, google!</a>
 ## 2 Hochladen des Projekts
 Wenn man sich dann in Google Colab angemeldet hat, erscheint folgendes Fenster: <br>
 <img width="451" height="350" alt="Screenshot Colab Notebook öffnen" src="https://github.com/user-attachments/assets/22bc97dd-0860-4b3e-8dd6-bfa1219e1ec8" /><br>

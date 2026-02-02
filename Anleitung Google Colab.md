@@ -1,7 +1,7 @@
 # Anleitung für Implementierung von Code in Google Colab
 Für dieses Projekt kann Google Colab sehr gut verwendet werden, es muss nichts auf dem PC installiert werden. Es wird lediglich ein Browser und ein Google-Konto benötigt. Außerdem ist Google Colab gratis. 
 ## 1 Anmeldung auf Google Colab und Herunterladen des Projkets von Github
-[https://colab.research.google.com/](https://colab.research.google.com/) öffnen und mit dem Google Konto anmelden.
+<a href="[http://example.com/](https://colab.research.google.com/)" target="_blank">https://colab.research.google.com</a> öffnen und mit dem Google Konto anmelden.
 Außerdem erst auf [mnist-1](https://github.com/magnusv30/ABA/blob/d338cde66c7138177eeb85f9b5b7caa984ce8e08/MNIST-1.ipynb) klicken und rechts oben auf herunterladen klicken, um das Projekt später auf Colab auszuführen.
 ## 2 Hochladen des Projekts
 Wenn man sich dann in Google Colab angemeldet hat, erscheint folgendes Fenster: <br>

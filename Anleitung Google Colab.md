@@ -16,18 +16,18 @@ anschließend in der obersten Zeile auf das Ordner-Symbol mit dem Google-Drive-L
 Um den Speicherort des Trainingsdatensatzes dem Programm bekannt zu geben, muss der bestehende Pfad verändert werden. Hierzu neben mnist_train.csv auf die drei Punkte klicken und auf "Pfad kopieren" klicken und im Code den Ausdruck "data/mnist_train.csv" durch den kopierten Pfad ersetzen.
 # Ausführen des Codes
 Nun kommt der spannende Teil: Der Code wird ausgeführt.
-# 1 Code einfach einmal ausführen
+## 1 Code einfach einmal ausführen
 Zu Beginn kann de Code einfach einmal ausgeführt werden und einfach beobachtet werden, gesehen werden, was passiert. Dazu oben auf den Button "Alle ausführen" klicken. Dies sollte den Code ablaufen lassen. Zu Beginn sind 200 Wiederholungen und eine Lernrate von 0,1 eingestellt. (Falls ein Fehler auftreten sollte, vor allem in der Zelle data=pd.read_csv(...), einfach nochmals auf "Alle ausführen" klicken- dies sollte den Fehler beheben)
 
-# 2 Das Ergebnis interpretieren
+## 2 Das Ergebnis interpretieren
 In den ersten Zellen geschieht erstmal nichts. Erst in der 20. Zelle beginnt sich etwas zu tun. Es erscheinen immer drei Zeilen: Die erste zeigt, bei der wievielten Wiederholung sich das Programm befindet. Die zweite Zeile zeigt immer links die tatsächliche Ausgabe des Netzes und rechts die gewünschte. Die dritte Zeile gibt immer die Genauigkeit des Netzes auf dem Trainingsdatensatz an. 
 In der 23. Zelle wird eine Ziffer genommen und das Netz sagt, was es denkt, welche Ziffer es ist. Dann wird das echte Label gezeigt und ein Bild der Ziffer gezeigt. 
 In der letzten Zeile ganz unten steht dann noch ein Ausdruck: np.float64(xxxxx). Die xxxxx sind Ziffern, die die Genauigkeit auf dem Testdatensatz anzeigen. 
-# 3 Die Lernrate und Wiederholungen ändern
+## 3 Die Lernrate und Wiederholungen ändern
 Die Lernrate und Wiederholungen können auch geändert werden. Diese befinden sich in der 20. Zelle. Zu Beginn sind sie mit 200 und 0,1 eingestellt. Diese können einfach verändert werden. Wenn die beiden Variablen verändert wurden, einfach wieder auf "Alle ausführen" klicken und die Veränderung an der Performance vergleichen. 
 
-# 4 Alternativen Backpropagation-Algorithmus implementieren
-xxx
+## 4 Alternativen Backpropagation-Algorithmus implementieren
+Um den alternativen Backpropagation-Algorithmus zu implementieren, die gesamte Code-Zelle zuerst von [mnist-2](https://github.com/magnusv30/ABA/blob/7ec15eb6ec6ef75b859bb5e5771593601d3d9f2e/MNIST-2%20alternatives%20BP.ipynb) kopieren. Anschließend die gleichnamige Zelle im Code in Google Colab damit ersetzen und den gesamten Code ausführen.
 
 
 

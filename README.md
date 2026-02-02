@@ -12,7 +12,7 @@ Anschließend ist es ratsam, sich anzusehen, wie das Programm von oben aussieht,
 Eine Alternative Implementierung von Backpropagation, die Google NotebookLM basierend auf [3blue1brown](https://www.3blue1brown.com) geschrieben hat. [Alternatives Backpropagation](https://github.com/magnusv30/ABA/blob/88c46baa29dd3a1a30bcf72c6c15d7ef5298a7a3/MNIST-2%20alternatives%20BP.ipynb)
 
 ## 4: Analyse der Performance
-Hier wird die Performance im Lauf der Zeit analysiert und verschiedene Kombinationen von Wiederholungen und Lernraten ausprobiert.
+Hier wird die Performance im Lauf der Zeit analysiert und verschiedene Kombinationen von Wiederholungen und Lernraten ausprobiert. [Analyse der Performance](https://github.com/magnusv30/ABA/blob/fce786947f1df8c3c913e25576d2b3bbe2130820/Analyse%20der%20Performance.md)
 
 # Eigene Implementation
 Nun kann das Programm selbst auf dem eigenen Rechner bzw. auf Google Colab ausgeführt werden.

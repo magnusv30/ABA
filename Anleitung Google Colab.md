@@ -17,7 +17,7 @@ Um den Speicherort des Trainingsdatensatzes dem Programm bekannt zu geben, muss 
 # Ausführen des Codes
 Nun kommt der spannende Teil: Der Code wird ausgeführt.
 ## 1 Code einfach einmal ausführen
-Zu Beginn kann de Code einfach einmal ausgeführt werden und einfach beobachtet werden, gesehen werden, was passiert. Dazu oben auf den Button "Alle ausführen" klicken. Dies sollte den Code ablaufen lassen. Zu Beginn sind 200 Wiederholungen und eine Lernrate von 0,1 eingestellt. (Falls ein Fehler auftreten sollte, vor allem in der Zelle data=pd.read_csv(...), einfach nochmals auf "Alle ausführen" klicken- dies sollte den Fehler beheben)
+Zu Beginn kann der Code einfach einmal ausgeführt werden und einfach beobachtet werden, was passiert. Dazu oben auf den Button "Alle ausführen" klicken. Dies sollte den Code ablaufen lassen. Zu Beginn sind 200 Wiederholungen und eine Lernrate von 0,1 eingestellt. (Falls ein Fehler auftreten sollte, vor allem in der Zelle data=pd.read_csv(...), einfach nochmals auf "Alle ausführen" klicken- dies sollte den Fehler beheben)
 
 ## 2 Das Ergebnis interpretieren
 In den ersten Zellen geschieht erstmal nichts. Erst in der 20. Zelle beginnt sich etwas zu tun. Es erscheinen immer drei Zeilen: Die erste zeigt, bei der wievielten Wiederholung sich das Programm befindet. Die zweite Zeile zeigt immer links die tatsächliche Ausgabe des Netzes und rechts die gewünschte. Die dritte Zeile gibt immer die Genauigkeit des Netzes auf dem Trainingsdatensatz an. 

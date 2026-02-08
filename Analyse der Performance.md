@@ -41,3 +41,12 @@ Als nächstes gibt es noch den Vergleich mit **5000** Wiederholungen und einer L
 Hier kann man ganz klar sehen, dass auch mnist-1 bei mehr Wiederholungen und einer höheren Lernrate deutlich besser performt. Außerdem fällt auf, dass nach einer gewissen Zeit bei beiden die Steigungen der Performance stark abflachen. Wenn man bei mnist-1 noch 2000 Wiederholungen mehr macht, verbessert sich die Performance auf dem Testdatensatz um etwas weniger als einen Prozentpunkt.</br> </br>
 Außerdem kann es auch passieren, dass das Netz zwar anfangs sich in der Performance auf den Trainingsdaten verbessert, sich dann aber wieder verschlechtert: Dies ist mir bei mnist-2 mit 2000 Wiederholungen und einer Lernrate von 0,1 passiert:
 <img width="556" height="413" alt="3b1b, wh 2000, lr 0,1, insg 33,8" src="https://github.com/user-attachments/assets/3ae2be64-ec15-4250-a83c-ff2d0c753ca5" />
+
+# Verwendung von anderen Aktivierungsfunktionen
+Um die Performance des Netzes mit anderen Aktivierungsfunktionen auch noch auszuprobieren, werden diese hier implementiert:
+## Tanh-Aktivierungsfunktion
+
+
+
+
+### Quellen

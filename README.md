@@ -3,7 +3,7 @@ Neuronales Netz zur Ziffernerkennung (MNIST) mit Jupyter, Numpy, Matplotlib und 
 
 ## 1: Nur Code
 Um zu starten, beginne bei folgendem Dokument, es erklärt den Code für das Projekt:
-[Projekt mit Erklärung](https://github.com/magnusv30/ABA/blob/e0e4c511784bbc4b56b20d1eb6ce06dd7b2599a3/Projekt.ipynb)
+[Projekt mit Erklärung](https://github.com/magnusv30/ABA/blob/9a8aaf3d1ca0cee05eca9545b68e22d4f44c52ec/MNIST-1.ipynb)
 (In diesem Code wurde eine andere Version des Backpropagation-Algorithmus verwendet, der einfacher zu programmieren ist)
 ## 2: Der Code ausgeführt zum Verständnis, was passiert
 Anschließend ist es ratsam, sich anzusehen, wie das Programm von oben aussieht, wenn es ausgeführt wurde. Dadurch kann man viel besser verstehen, was passiert ist. [Ausgeführter Code](https://github.com/magnusv30/ABA/blob/88c46baa29dd3a1a30bcf72c6c15d7ef5298a7a3/MNIST%201.1%20-%20ausgef%C3%BChrt.ipynb)

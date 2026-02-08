@@ -15,10 +15,11 @@ Anschließend <a href="https://colab.research.google.com/" target="_blank">Goolg
 Nach der Anmeldung in Google Colab, erscheint folgendes Fenster: <br>
 <img width="451" height="350" alt="Screenshot Colab Notebook öffnen" src="https://github.com/user-attachments/assets/22bc97dd-0860-4b3e-8dd6-bfa1219e1ec8" /><br>
 Hier dann auf "Hochladen" klicken und auf "Durchsuchen". Dann die Datei, die im vorherigen Schritt heruntergeladen wurde, auswählen. 
+  
 <h2>3 Hochladen des MNIST-Trainingsdatensatzes</h2>
 Um den MNIST-Trainingsdatensatz in Google Colab hochzuladen, muss dieser zuerst über <a href="https://python-course.eu/data/mnist/mnist_train.csv" target="_blank"> mnist_train.csv </a> heruntergeladen werden. Um den Datensatz für den Code erreichbar zu machen, muss dieser in Google Drive in Dateien hochgeladen werden. Dazu auf die Seite <a href="https://drive.google.com/drive/my-drive" target="_blank"> Google Drive </a> gehen, links oben auf "Neu" -> "Dateien hochladen" klicken und mnist_train.csv auswählen. Dies kann lange dauern. Anschließend wieder zu Google Colab zurückkehren und auf der linken Seitenleiste auf das Ordner-Symbol klicken: <br> <img width="43" height="115" alt="Ordner Symbol Colab" src="https://github.com/user-attachments/assets/b9ec6ba0-28ae-4a8f-889b-54c5dc7488b2" /> <br>
   
-anschließend in der obersten Zeile auf das Ordner-Symbol mit dem Google-Drive-Logo klicken. <br><img width="137" height="38" alt="Hochladen Colab" src="https://github.com/user-attachments/assets/929f1f69-900e-4a85-bb12-d837ea9e3196" />
+anschließend in der obersten Zeile auf das Ordner-Symbol mit dem Google-Drive-Logo klicken. (das zweite Symbol von rechts) <br><img width="137" height="38" alt="Hochladen Colab" src="https://github.com/user-attachments/assets/929f1f69-900e-4a85-bb12-d837ea9e3196" />
 <br>Dies fügt eine neue Zelle zum Code hinzu. Auf der linken Seite dieser Zelle befindet sich ein schwarzer "Play"-Button. Diesen einmal klicken. Anschließend alles zulassen, bis sich das Pop-up wieder schließt. Nun sollte sich links ein Ordner "drive" befinden (falls dieser nicht zu finden sein sollte, auf die oberste Ebene zurückgehen, kurz warten, dann sollte er im Unterordner "content" auftauchen) . Diesen anklicken, dann öffnet sich ein Ordner "MyDrive", diesen ebenfalls anklicken. Hier befindet sich dann die Datei mnist_train.csv
 
 <h2>4 Verorten der Trainingsdatensatzes im Code </h2>
@@ -28,15 +29,16 @@ Nun kommt der spannende Teil: Der Code wird ausgeführt.
 <h2>1 Code einfach einmal ausführen</h2>
 Zu Beginn kann der Code einfach einmal ausgeführt werden und einfach beobachtet werden, was passiert. Dazu oben auf den Button "Alle ausführen" klicken. Dies sollte den Code ablaufen lassen. Zu Beginn sind 200 Wiederholungen und eine Lernrate von 0,1 eingestellt. (Falls ein Fehler auftreten sollte, vor allem in der Zelle data=pd.read_csv(...), einfach nochmals auf "Alle ausführen" klicken- dies sollte den Fehler beheben. Ein Fehler ist dadurch erkennbar, dass der Text rot wird)
 
-## 2 Das Ergebnis interpretieren
+<h2>2 Das Ergebnis interpretieren</h2>
 In den ersten Zellen geschieht erstmal nichts. Erst in der 20. bzw 21. Zelle beginnt sich etwas zu tun. Es erscheinen immer drei Zeilen: Die erste zeigt, bei der wievielten Wiederholung sich das Programm befindet. Die zweite Zeile zeigt immer links die tatsächliche Ausgabe des Netzes und rechts die gewünschte Ausgabe. Die dritte Zeile gibt immer die Genauigkeit des Netzes auf dem Trainingsdatensatz an. 
 In der 23. Zelle wird eine Ziffer genommen und das Netz sagt, was es denkt, welche Ziffer es ist. Dann wird das echte Label gezeigt und ein Bild der Ziffer gezeigt. 
 In der letzten Zele ganz unten steht dann noch ein Ausdruck: np.float64(xxxxx). Die xxxxx sind Ziffern, die die Genauigkeit auf dem Testdatensatz anzeigen. 
-## 3 Die Lernrate und Wiederholungen ändern
+  
+<h2>3 Die Lernrate und Wiederholungen ändern</h2>
 Die Lernrate und Wiederholungen können auch geändert werden. Diese befinden sich in der 20. bzw. 21. Zelle. Zu Beginn sind sie mit 200 und 0,1 eingestellt. Diese können einfach verändert werden. Wenn die beiden Variablen verändert wurden, einfach wieder auf "Alle ausführen" klicken und die Veränderung an der Performance vergleichen. 
 
-## 4 Alternativen Backpropagation-Algorithmus implementieren
-Um den alternativen Backpropagation-Algorithmus zu implementieren, die gesamte Code-Zelle zuerst von [mnist-2](https://github.com/magnusv30/ABA/blob/7ec15eb6ec6ef75b859bb5e5771593601d3d9f2e/MNIST-2%20alternatives%20BP.ipynb) kopieren. Anschließend die gleichnamige Zelle im Code in Google Colab damit ersetzen und den gesamten Code ausführen.
+<h2>4 Alternativen Backpropagation-Algorithmus implementieren </h2>
+Um den alternativen Backpropagation-Algorithmus zu implementieren, die gesamte Code-Zelle zuerst von <a href="https://github.com/magnusv30/ABA/blob/7ec15eb6ec6ef75b859bb5e5771593601d3d9f2e/MNIST-2%20alternatives%20BP.ipynb" target="_blank"> mnist-2</a> kopieren. Anschließend die gleichnamige Zelle im Code in Google Colab damit ersetzen und den gesamten Code ausführen.
 </body>
 
 </html>

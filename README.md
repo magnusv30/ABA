@@ -9,7 +9,7 @@ Um zu starten, beginne bei folgendem Dokument, es erklärt den Code für das Pro
 Anschließend ist es ratsam, sich anzusehen, wie das Programm von oben aussieht, wenn es ausgeführt wurde. Dadurch kann man viel besser verstehen, was passiert ist. [Ausgeführter Code](https://github.com/magnusv30/ABA/blob/ff11a3ac6dab5338122e94577aca48be813880a7/MNIST%201.1%20-%20ausgef%C3%BChrt.ipynb)
 
 ## 3: Vergleich von zwei verschiedenen Backpropagation-Algorithmen
-Eine Alternative Implementierung von Backpropagation, die Google NotebookLM basierend auf [3blue1brown](https://www.3blue1brown.com) geschrieben hat. [Alternatives Backpropagation](https://github.com/magnusv30/ABA/blob/ff11a3ac6dab5338122e94577aca48be813880a7/MNIST-2%20alternatives%20BP.ipynb)
+Eine Alternative Implementierung von Backpropagation, die Google NotebookLM basierend auf [3blue1brown](https://www.3blue1brown.com) geschrieben hat. [Alternatives Backpropagation](https://github.com/magnusv30/ABA/blob/8637e4b073643c37f572a2add0f494e5ca892200/mnist-2%20alternatives%20Backpropagation.ipynb)
 
 ## 4: Analyse der Performance
 Hier wird die Performance im Lauf der Zeit analysiert und verschiedene Kombinationen von Wiederholungen und Lernraten ausprobiert. [Analyse der Performance](https://github.com/magnusv30/ABA/blob/ff11a3ac6dab5338122e94577aca48be813880a7/Analyse%20der%20Performance.md)

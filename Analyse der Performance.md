@@ -43,9 +43,9 @@ Außerdem kann es auch passieren, dass das Netz zwar anfangs sich in der Perform
 <img width="556" height="413" alt="3b1b, wh 2000, lr 0,1, insg 33,8" src="https://github.com/user-attachments/assets/3ae2be64-ec15-4250-a83c-ff2d0c753ca5" />
 
 # Probieren, das Maximum zu erreichen
-Bei vielen Programmierern ist das Ziel, eine möglichst gute Performance auf dem Testdatensatz zu haben. Das beste, das mit der alternativen Implementierung von Backpropagation erreicht wurde, waren 86,7% auf dem Testdatensatz bei 9000 Wiederholungen, wobei in den letzten 3000 Wiederholungen kaum ein Lernerfolg erzielt wurde.  
+Bei vielen Programmierern ist das Ziel, eine möglichst gute Performance auf dem Testdatensatz zu haben. Das beste, das mit der alternativen Implementierung von Backpropagation (mnist-2) erreicht wurde, waren 86,7% auf dem Testdatensatz bei 9000 Wiederholungen, wobei in den letzten 3000 Wiederholungen kaum ein Lernerfolg erzielt wurde.  
 <img width="547" height="413" alt="3b1b, wh 9000, lr 0,2, insg  86,7" src="https://github.com/user-attachments/assets/12cebe8a-2b43-490c-9c40-eba51ce677c4" />  
-Bei der ursprünglichen Implementierung waren es mit einer Lernrate von 0,1 und 9000 Wiederholungen auf dem Testdatensatz 88,8%  
+Bei der ursprünglichen Implementierung (mnist-1) waren es mit einer Lernrate von 0,1 und 9000 Wiederholungen auf dem Testdatensatz 88,8%  
 <img width="547" height="413" alt="om, wh 9000, lr 0,1, insg 88,8" src="https://github.com/user-attachments/assets/8cc7538b-13f6-4513-b2d4-c92598cffec1" />
 
   

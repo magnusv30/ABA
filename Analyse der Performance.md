@@ -50,4 +50,5 @@ Bei der ursprünglichen Implementierung waren es mit einer Lernrate von 0,1 und 
 
   
 ## Methoden, um noch mehr zu erreichen:
-
+Um eine noch bessere Klassifizierung vorzunehmen, könnte die Netzarchitektur  zu einem CNN (ein neuronales Netz, das in einigen Schichten überflüssige Informationen verwirft) verändert werden.   
+Außerdem können neue Trainingsdaten durch Daten-Augmentation vermehrt werden. 

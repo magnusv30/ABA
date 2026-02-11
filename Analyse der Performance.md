@@ -42,11 +42,8 @@ Hier kann man ganz klar sehen, dass auch mnist-1 bei mehr Wiederholungen und ein
 Außerdem kann es auch passieren, dass das Netz zwar anfangs sich in der Performance auf den Trainingsdaten verbessert, sich dann aber wieder verschlechtert: Dies ist mir bei mnist-2 mit 2000 Wiederholungen und einer Lernrate von 0,1 passiert:
 <img width="556" height="413" alt="3b1b, wh 2000, lr 0,1, insg 33,8" src="https://github.com/user-attachments/assets/3ae2be64-ec15-4250-a83c-ff2d0c753ca5" />
 
-# Verwendung von anderen Aktivierungsfunktionen
-Um die Performance des Netzes mit anderen Aktivierungsfunktionen auch noch auszuprobieren, werden diese hier implementiert:
-## Tanh-Aktivierungsfunktion
+# Probieren, das Maximum zu erreichen
+Bei vielen Programmierern ist das Ziel, eine möglichst gute Performance auf dem Testdatensatz zu haben. Das beste, das mit der alternativen Implementierung von Backpropagation erreicht wurde, waren 86,7% auf dem Testdatensatz bei 9000 Wiederholungen, wobei in den letzten 3000 Wiederholungen kaum ein Lernerfolg erzielt wurde.  
+<img width="547" height="413" alt="3b1b, wh 9000, lr 0,2, insg  86,7" src="https://github.com/user-attachments/assets/12cebe8a-2b43-490c-9c40-eba51ce677c4" />
+Bei der ursprünglichen Implementierung waren es mit einer Lernrate von 0,1 und 9000 Wiederholungen auf dem Testdatensatz   %  
 
-
-
-
-### Quellen

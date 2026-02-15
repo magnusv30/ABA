@@ -15,4 +15,4 @@ Eine Alternative Implementierung von Backpropagation, die Google NotebookLM basi
 Hier wird die Performance im Lauf der Zeit analysiert und verschiedene Kombinationen von Wiederholungen und Lernraten ausprobiert. [Analyse der Performance](https://github.com/magnusv30/ABA/blob/9a8aaf3d1ca0cee05eca9545b68e22d4f44c52ec/Analyse%20der%20Performance.md)
 
 # Eigene Implementation
-Nun kann das Programm selbst auf dem eigenen Rechner bzw. auf Google Colab ausgeführt werden. Einfach der [Anleitung](http://htmlpreview.github.io/?https://github.com/magnusv30/ABA/blob/9a8aaf3d1ca0cee05eca9545b68e22d4f44c52ec/Anleitung%20Google%20Colab.html) folgen.
+Nun kann das Programm selbst auf dem eigenen Rechner bzw. auf Google Colab ausgeführt werden. Einfach der [Anleitung](http://htmlpreview.github.io/?https://github.com/magnusv30/ABA/blob/7546514bc49b30c9e3889f1aafbed3f3301b22fa/Anleitung%20Google%20Colab.html) folgen.

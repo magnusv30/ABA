@@ -52,11 +52,3 @@ Bei der ursprünglichen Implementierung (mnist-1) waren es mit einer Lernrate vo
 ## Methoden, um noch mehr zu erreichen:
 Um eine noch bessere Klassifizierung vorzunehmen, könnte die Netzarchitektur  zu einem CNN (ein neuronales Netz, das in einigen Schichten überflüssige Informationen verwirft) verändert werden.   
 Außerdem können neue Trainingsdaten durch Daten-Augmentation vermehrt werden. Hierbei werden die Ziffern in den Bildern ein wenig nach rechts, links, oben oder unten verschoben. Außerdem wird die Ziffer vergrößert oder verkleinert. 
-
-# Nächster Schritt: handgeschriebene Buchstaben erkennen!
-Der nächste Schritt wäre, den Datensatz von MNIST auf EMNIST umzustellen und den Code dementsprechend zu verändern. EMNIST ist ähnlich wie MNIST, nur besteht es aus handgeschriebenen Buchstaben. Die Architektur müsste nur in der letzten Schicht zu 62 Neuronen erweitert werden (je 26 Klein- und Großbuchstaben und 10 Ziffern). Der EMNIST-Datensatz ist auf [Kaggle](https://www.kaggle.com/datasets/crawford/emnist/data) verfügbar - hier einfach emnist-letters-train.csv herunterladen und wie in der Anleitung oben den Pfad verändern. 
-Hierfür einfach den Pfad in der zweiten Code-Zeile ändern. Außerdem müssen die Größeen der letzten Gewichtsmatrix und Biasmatrix von 10 auf 26 vergrößert werden und in der Code-Zelle, in der der Gradientenabstieg definiert wird nach der folgenden Zeile:  
-    w1,b1,w2,b2,w3,b3=matrizen_erstellen()  
-    folgender Code hinzugefügt werden, damit das Programm noch laufen kann:  
-    label=label-1  
-Dann kann der Code eigentlich schon laufen. Jedoch wäre es gut, wenn noch mindestens eine Schicht hinzugefügt wird und zu jeder Schicht ein paar mehr Neuronen, damit das Netz besser funktioniert.

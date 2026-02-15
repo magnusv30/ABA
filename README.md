@@ -1,4 +1,4 @@
-# MNIST Neuronales Netz mit Jupyter
+# MNIST Neuronales Netz mit Jupyter - Anleitung zur Verwendung des Blogs
 Neuronales Netz zur Ziffernerkennung (MNIST) mit Jupyter, Numpy, Matplotlib und Pandas.
 
 ## 1: Nur Code

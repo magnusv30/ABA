@@ -15,7 +15,7 @@ Eine Alternative Implementierung von Backpropagation, die Google NotebookLM basi
 Hier wird die Performance im Lauf der Zeit analysiert und verschiedene Kombinationen von Wiederholungen und Lernraten ausprobiert. [Analyse der Performance](https://github.com/magnusv30/ABA/blob/86a138ea6a4b12fdeba7a3f4f7827119d833fe10/Analyse%20der%20Performance.md)
   
 # Eigene Implementation
-Nun kann das Programm selbst auf dem eigenen Rechner bzw. auf Google Colab ausgeführt werden. Einfach der [Anleitung](http://htmlpreview.github.io/?https://github.com/magnusv30/ABA/blob/3089c31152b6a0d6d64a790f2974ee9670e74251/Anleitung%20Google%20Colab.html) folgen.
+Nun kann das Programm selbst auf dem eigenen Rechner bzw. auf Google Colab ausgeführt werden. Einfach der [Anleitung](http://htmlpreview.github.io/?https://github.com/magnusv30/ABA/blob/a63716674c5b23d85c32c6375e4531e269148538/Anleitung%20Google%20Colab.html) folgen.
   
 # Nächster Schritt: handgeschriebene Buchstaben erkennen!
 Der nächste Schritt wäre, den Datensatz von MNIST auf EMNIST umzustellen und den Code dementsprechend zu verändern. EMNIST ist ähnlich wie MNIST, nur besteht es aus handgeschriebenen Buchstaben. Die Architektur müsste nur in der letzten Schicht zu 62 Neuronen erweitert werden (je 26 Klein- und Großbuchstaben und 10 Ziffern). Der EMNIST-Datensatz ist auf [Kaggle](https://www.kaggle.com/datasets/crawford/emnist/data) verfügbar - hier einfach emnist-letters-train.csv herunterladen und wie in der Anleitung oben den Pfad verändern. 

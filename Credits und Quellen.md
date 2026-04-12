@@ -12,3 +12,4 @@ Ziffernerkennung1extra.ipynb und Ziffernerkennung2.ipynb
 Ziffernerkennung - Anleitung:  
 IONOS Reaktion: Python pickle: Soe serialisieren Sie Objekte in der Programmiersprache. 04.07.2024. https://www.ionos.at/digitalguide/websites/web-entwicklung/python-pickle/ [letzer Zugriff: 12.04.2026].  
 Jha, Manish: Python os.path.join() Method. 02.01.2024. https://www.scaler.com/topics/os-path-join/ [letzter Zugriff: 12.04.2026].  
+EEs get degrEEs: format-your-own-images-to-match-MNIST-dataset. 17.12.2020. https://github.com/eesgetdegrees/format-your-own-images-to-match-MNIST-dataset/commits/main/ [letzter Zugriff: 12.04.2026].

@@ -27,11 +27,11 @@ Dann kann der Code eigentlich schon laufen. Jedoch wäre es gut, wenn noch minde
 
 ## Extra für Wettbewerb (wurde in der ABA-Präsentation vorgestellt):
 ## trainierte Gewichte und Bias dauerhaft speichern
-Um das Training nicht jedes Mal laufen lassen zu müssen, um eine Ziffer zu erkennen, können die Gewichte und Bias auch dauerhaft in Google Drive gespeichert werden. Hierfür einfach unter dem bisherigen Code den Code aus Ziffernerkennung1extra.ipynb hinzufügen. Den Pfad '/content/drive/MyDrive/Variablen/' mit dem Pfad für den Ordner (hier: Variablen) für die Variablen ersetzen und die Code-Zelle ausführen. Dann sind die Gewichte und Bias gespeichert und können wieder verwendet werden.
+Um das Training nicht jedes Mal laufen lassen zu müssen, um eine Ziffer zu erkennen, können die Gewichte und Bias auch dauerhaft in Google Drive gespeichert werden. Hierfür einfach unter dem bisherigen Code den Code aus [Ziffernerkennung1extra.ipynb](https://github.com/magnusv30/ABA/blob/main/Ziffernerkennung1extra.ipynb) hinzufügen. Den Pfad '/content/drive/MyDrive/Variablen/' mit dem Pfad für den Ordner (hier: Variablen) für die Variablen ersetzen und die Code-Zelle ausführen. Dann sind die Gewichte und Bias gespeichert und können wieder verwendet werden.
 ## Eigene, handgeschriebene Ziffern erkennen 
 Um eigene, handgeschriebene Ziffern, wie hier meine Ziffer 0 zu erkennen, diese einfach in Microsoft Paint zeichnen und als .jpg-Datei exportieren. Hierbei darauf achten, dass das Seitenverhältnis 1:1 ist.     
 <img width="326" height="326" alt="Ziffer 0" src="https://github.com/user-attachments/assets/1e4015c7-97ff-439b-84c4-ec71712dd39f" />    
 Diese dann in einem Ordner Google Drive speichern (ich habe meinen mit Ziffern benannt).  
-Anschließend Ziffernerkennung2.ipynb in Google Colab importieren. (evtl. die Dateipfade verändern, da ich meine Ordner mit Variablen und Ziffern benannt habe). Um die eigene Ziffer nun der KI zur Klassifizierung zu geben, einfach den Dateinamen (ohne Endung .jpg) ganz unten in Zifferneingabe hineingeben. (Beispielsweise hier hieß die Datei Ziffer 7.jpg).
+Anschließend [Ziffernerkennung2.ipynb](https://github.com/magnusv30/ABA/blob/main/Ziffernerkennung2.ipynb) in Google Colab importieren. (evtl. die Dateipfade verändern, da ich meine Ordner mit Variablen und Ziffern benannt habe). Um die eigene Ziffer nun der KI zur Klassifizierung zu geben, einfach den Dateinamen (ohne Endung .jpg) ganz unten in Zifferneingabe hineingeben. (Beispielsweise hier hieß die Datei Ziffer 7.jpg).
 Anschließend gibt das Programm ein Bild der Ziffer aus und sagt, welche Ziffer es (hoffentlich) ist.   
 
